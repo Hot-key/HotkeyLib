@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotkeyLib", "HotkeyLib\HotkeyLib.csproj", "{1F4F748D-96DD-404D-A932-A9DF37BD60AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotkeyLib_Socket", "HotkeyLib_Socket\HotkeyLib_Socket.csproj", "{0C857594-9CBA-413B-8530-BC54557E950B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F4F748D-96DD-404D-A932-A9DF37BD60AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F4F748D-96DD-404D-A932-A9DF37BD60AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F4F748D-96DD-404D-A932-A9DF37BD60AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F4F748D-96DD-404D-A932-A9DF37BD60AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C857594-9CBA-413B-8530-BC54557E950B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C857594-9CBA-413B-8530-BC54557E950B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C857594-9CBA-413B-8530-BC54557E950B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C857594-9CBA-413B-8530-BC54557E950B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA8F5B58-E11C-4F83-A478-67FFEAA95773}
+	EndGlobalSection
+EndGlobal
