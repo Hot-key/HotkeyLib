@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotkeyLib", "HotkeyLib\Hotk
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotkeyLib_Socket", "HotkeyLib_Socket\HotkeyLib_Socket.csproj", "{0C857594-9CBA-413B-8530-BC54557E950B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotkeyLib_Auth", "HotkeyLib_Auth\HotkeyLib_Auth.csproj", "{2EE18BC1-2DA8-4DB6-A1B9-A0EE5462CE23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotkeyLib_Auth_Server", "HotkeyLib_Auth_Server\HotkeyLib_Auth_Server.csproj", "{ACA2F099-0991-4C5A-AD4E-41AEBC5380D9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{0C857594-9CBA-413B-8530-BC54557E950B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C857594-9CBA-413B-8530-BC54557E950B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C857594-9CBA-413B-8530-BC54557E950B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EE18BC1-2DA8-4DB6-A1B9-A0EE5462CE23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EE18BC1-2DA8-4DB6-A1B9-A0EE5462CE23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EE18BC1-2DA8-4DB6-A1B9-A0EE5462CE23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EE18BC1-2DA8-4DB6-A1B9-A0EE5462CE23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACA2F099-0991-4C5A-AD4E-41AEBC5380D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACA2F099-0991-4C5A-AD4E-41AEBC5380D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACA2F099-0991-4C5A-AD4E-41AEBC5380D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACA2F099-0991-4C5A-AD4E-41AEBC5380D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

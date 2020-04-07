@@ -3,7 +3,7 @@
 HotkeyLib_Load()
 
 user_id := "id12456"
-user_pw := "pw12340" 
+user_pw := "pw12340한글" 
 
 len := HotkeyLib.Auth.Login(user_id, user_pw)
 

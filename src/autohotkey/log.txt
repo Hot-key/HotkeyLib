@@ -29,3 +29,7 @@
 [CheckToken] Token : id12456pw12340
 [Login] id : id12456 pw : pw12340
 [CheckToken] Token : id12456pw12340
+[Login] id : id12456 pw : pw12340
+[CheckToken] Token : id12456pw12340
+[Login] id : id12456 pw : pw12340한글
+[CheckToken] Token : id12456pw12340한글

@@ -1,7 +1,12 @@
-﻿using System.IO;
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
 using System.Runtime.InteropServices;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace HotkeyLib
+namespace HotkeyLib_Auth
 {
     public static class Auth
     {
@@ -30,5 +35,10 @@ namespace HotkeyLib
 
             return Data.Token;
         }
+    }
+
+    public static class Data
+    {
+        public static string Token = "-1";
     }
 }
