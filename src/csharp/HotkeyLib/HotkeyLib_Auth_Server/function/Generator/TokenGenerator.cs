@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace HotkeyLib_Auth_Server.function.Generator
+namespace HotkeyLib_Auth_Server.Function.Generator
 {
     public static class TokenGenerator
     {

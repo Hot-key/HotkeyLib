@@ -19,6 +19,8 @@ namespace HotkeyLib_Auth_Server.DataType
 
         public string Salt { get; set; }
 
-        public DateTime LastLogin { get; set; }
+        public DateTime LastLoginDate { get; set; }
+
+        public DateTime RegisterDate { get; set; }
     }
 }

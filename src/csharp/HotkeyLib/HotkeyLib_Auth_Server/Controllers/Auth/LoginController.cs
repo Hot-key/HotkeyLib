@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using HotkeyLib_Auth_Server.function;
-using HotkeyLib_Auth_Server.function.Generator;
+using HotkeyLib_Auth_Server.Function;
+using HotkeyLib_Auth_Server.Function.Generator;
 using Microsoft.AspNetCore.Mvc;
 
 namespace HotkeyLib_Auth_Server.Controllers.Auth
@@ -19,7 +19,7 @@ namespace HotkeyLib_Auth_Server.Controllers.Auth
             if (user.Password != HashGenerator.ComputeSha512Hash(data.Password + user.Salt, 100)) return Unauthorized();
 
             user.Token = TokenGenerator.GetToken();
-            user.LastLogin = DateTime.UtcNow.AddHours(9);
+            user.LastLoginDate = DateTime.UtcNow.AddHours(9);
 
             Program.DataBase.UserCollection.Update(user);
 

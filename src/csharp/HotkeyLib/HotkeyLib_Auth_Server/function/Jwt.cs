@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.IdentityModel.Tokens;
 
-namespace HotkeyLib_Auth_Server.function
+namespace HotkeyLib_Auth_Server.Function
 {
     public static class Jwt
     {

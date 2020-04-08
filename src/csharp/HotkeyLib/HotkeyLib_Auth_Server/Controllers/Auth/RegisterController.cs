@@ -1,6 +1,6 @@
 ﻿using System;
 using HotkeyLib_Auth_Server.DataType;
-using HotkeyLib_Auth_Server.function.Generator;
+using HotkeyLib_Auth_Server.Function.Generator;
 using Microsoft.AspNetCore.Mvc;
 
 namespace HotkeyLib_Auth_Server.Controllers.Auth
