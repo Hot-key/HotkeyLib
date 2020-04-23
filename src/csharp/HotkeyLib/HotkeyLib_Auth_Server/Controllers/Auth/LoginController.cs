@@ -11,7 +11,7 @@ namespace HotkeyLib_Auth_Server.Controllers.Auth
     public class LoginController : ControllerBase
     {
         [HttpGet]
-        public ActionResult<string> Get(LoginModel data)
+        public ActionResult<string> Get([FromQuery]LoginModel data)
         {
             var user = Program.DataBase.UserCollection.FindById(data.Id);
 
